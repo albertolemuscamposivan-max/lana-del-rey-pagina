@@ -1,0 +1,38 @@
+
+
+nav ul a { 
+    display: block;
+    color: #6a5a67;                  
+    text-decoration: none;
+    border: 1px solid #8d7a8d;        
+    background-color: #f2f0ef;        
+    width: 150px;
+    text-align: center;
+    padding: 14px 0;
+    
+    font-family: 'Garamond', 'Georgia', serif; 
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+                background-color 0.4s ease,
+                color 0.4s ease,
+                box-shadow 0.4s ease,
+                border-color 0.4s ease;
+}
+
+nav ul a:hover {
+    background-color: #5c4e5a;       
+    color: #ffffff;
+    border-color: #5c4e5a;
+    transform: translateX(10px) scale(1.03);
+    
+    /* Sombra más dramática pero suave */
+    box-shadow: 0 5px 15px rgba(92, 78, 90, 0.3); 
+}
+
+nav ul a:active {
+    transform: translateX(5px) scale(0.97);
+}
